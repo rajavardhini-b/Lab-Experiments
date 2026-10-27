@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+  int x,y,z,S;
+  float Avg;
+   printf("Enter three numbers:");
+   scanf("%d%d%d",&x,&y,&z);
+  S = x+y+z;
+   printf("\nSum of three numbers is %d",S);
+  Avg = S/3;
+   printf("\nThe average of three numbers is %f",Avg);
+}
